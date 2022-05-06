@@ -1,0 +1,102 @@
+:root {
+    --primary-clr: orange;
+    --bg-primary-clr: beige;
+    --secondary-clr: mediumaquamarine;
+
+    --space-xlg: 2.5rem;
+    --space-lg: 2rem;
+    --space-md: 1rem;
+    --space-sm: .5rem;
+    --space-xsm: .3rem;
+
+    --border-xlg: 2rem solid;
+    --border-lg: 1rem solid;
+    --border-md: .5rem solid;
+    --border-sm: .3rem solid;
+    --border-xsm: .1rem solid;
+
+    --font-size-xlg: 2rem;
+    --font-size-lg: 1.5rem;
+    --font-size-md: 1rem;
+    --font-size-sm: .5rem;
+    --font-size-xsm: .3rem;
+
+    --shadow-xlg: 0 0 1rem;
+    --shadow-lg: 0 0 .5rem;
+    --shadow-md: 0 0 .3rem;
+    --shadow-sm: 0 0 .1rem;
+
+    --radius-xlg: 5rem;
+    --radius-lg: 3rem;
+    --radius-md: 2rem;
+    --radius-sm: 1rem;
+    --radius-xsm: .5rem;
+    
+    --radius-full: 100%;
+    --radius-half: 50%;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    :root {
+        --primary-clr: orange;
+        --bg-primary-clr: beige;
+        --secondary-clr: mediumaquamarine;
+    
+        --space-xlg: 2.5rem;
+        --space-lg: 2rem;
+        --space-md: 1rem;
+        --space-sm: .5rem;
+        --space-xsm: .3rem;
+    
+        --border-xlg: 2.5rem solid;
+        --border-lg: 1.5rem solid;
+        --border-md: .5rem solid;
+        --border-sm: .3rem solid;
+        --border-xsm: .1rem solid;
+    
+        --font-size-xlg: 2rem;
+        --font-size-lg: 1.5rem;
+        --font-size-md: 1rem;
+        --font-size-sm: .5rem;
+        --font-size-xsm: .3rem;
+    
+        --shadow-xlg: 0 0 1rem;
+        --shadow-lg: 0 0 .5rem;
+        --shadow-md: 0 0 .3rem;
+        --shadow-sm: 0 0 .1rem;
+    
+        --radius-xlg: 5rem;
+        --radius-lg: 3rem;
+        --radius-md: 2rem;
+        --radius-sm: 1rem;
+        --radius-xsm: .5rem;
+        
+        --radius-full: 100%;
+        --radius-half: 50%;
+    
+    }
+    * {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    * {
+        font-size: 17px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    * {
+        font-size: 16.5px;
+    }
+}
