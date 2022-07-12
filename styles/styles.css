@@ -152,7 +152,7 @@ body {
     width: 2rem;
 }
 .dropdown-links {
-    display: none;
+    display: none!important;
     position: absolute;
     z-index: 25;
     width: 100%;
